@@ -27,6 +27,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # MiuiCamera
 $(call inherit-product-if-exists, vendor/apps/MiuiCamera/config.mk)
 
+# Firmware
+$(call inherit-product, vendor/xiaomi/firmware/sagit/firmware.mk)
+
 PRODUCT_NAME := lineage_sagit
 PRODUCT_DEVICE := sagit
 PRODUCT_BRAND := Xiaomi
