@@ -39,3 +39,4 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
 # Inherit from proprietary files
 include vendor/xiaomi/sagit/BoardConfigVendor.mk
+include vendor/miuicamera/common/BoardConfigVendor.mk
